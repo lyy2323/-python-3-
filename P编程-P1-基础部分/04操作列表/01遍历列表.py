@@ -15,3 +15,9 @@ for number in range(5):
 # 通过list()函数将数字转换为列表：
 numbers = list(range(5))
 print(numbers)
+
+squares = []
+for value in range(1,11):
+    square = value ** 2
+    squares.append(square)
+print(squares)
