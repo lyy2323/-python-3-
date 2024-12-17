@@ -13,3 +13,5 @@ print('haha')
 for number in range(5):
     print(number)
 # 通过list()函数将数字转换为列表：
+numbers = list(range(5))
+print(numbers)
