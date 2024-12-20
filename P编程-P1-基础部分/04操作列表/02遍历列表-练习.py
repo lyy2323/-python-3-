@@ -18,7 +18,7 @@ number = list(range(3,31,3))
 for numbers in number:
     print(numbers)
 
-# 4.8 立方
+# 4.8 立方1
 cubes = []
 for number in range(1,11):
     cube = number **3
@@ -26,10 +26,12 @@ for number in range(1,11):
 for cube in cubes:
     print(cube)
 
+# 立方2——使用推送式
 cubes = [cube**3 for cube in range(1,11)]
 print(cubes)
 for cube in cubes:
     print(cube)
 
+# 4.9 立方推送式
 cubes = [c**3 for c in range(1,11)]
 print(cubes)
