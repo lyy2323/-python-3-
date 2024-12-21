@@ -1,3 +1,4 @@
+# 元组与列表的两个主要区别：1、元组不能被修改，列表可以；2、元组使用圆括号，列表使用方括号
 # 建立5个元组，用for循环打印
 restaurant = ('rice', 'noodle' 'pasta', 'pizza', 'pineapple')
 for food in restaurant:
