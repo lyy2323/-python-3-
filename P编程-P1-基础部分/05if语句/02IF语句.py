@@ -5,4 +5,4 @@ elif age < 18:
     price = 25
 else:
     price = 40
-print(f'you are price:{price}')
+print(f'your price is:{price}')
