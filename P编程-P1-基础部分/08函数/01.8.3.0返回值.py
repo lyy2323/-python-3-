@@ -24,3 +24,17 @@ musician = build_person("jake", "henry", age=27)
 print(musician)
 
 
+def get_formated_name(first_name, last_name):
+    full_name = f"{first_name} {last_name}"
+    return full_name.title()
+while True:
+    print("请告诉我你的名字？")
+    print("(输入”q“则退出）")
+    f_name = input("first_name:")
+    if f_name == "q":
+        break
+    l_name = input("last_name:")
+    if l_name == "q":
+        break
+    formated_name = get_formated_name(f_name, l_name)
+    print(f"\nHello,{formated_name}!")
