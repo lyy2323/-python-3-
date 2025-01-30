@@ -51,3 +51,21 @@ print("原始的send:")
 print(send)
 print("调用后的sent:")
 print(sent)
+
+print()
+
+# 8.12-三明治
+def sandwichs(*names):
+    print("这里有这些三明治：")
+    for name in names:
+        print(f"-{name}")
+sandwichs("adsfa", "adfasf", "asdfadfd")
+sandwichs("sdfadf")
+
+# 8.13-用户简介：
+def build_profile(frist, list, **user_info):
+    user_info["frist_name"] = frist
+    user_info["list_name"] = list
+    return user_info
+mybuild = build_profile("xuefeng", "liu", hobby="羽毛球", occupation="职员")
+print(mybuild)
